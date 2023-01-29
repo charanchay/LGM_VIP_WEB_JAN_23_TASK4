@@ -1,0 +1,63 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.bigimage{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url(https://images.pexels.com/photos/561463/pexels-photo-561463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size :cover;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    font-size: 26px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.head{
+    background-color: rgb(192, 26, 43);
+    font-size: medium
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: center;
+    padding: 10px 4px 10px 6px;
+}
+.cal{
+    background-color: #1bc063;
+    margin: 5px 305px 5px 305px;
+    padding: 10px 10px 10px 10px;
+    height: -50% -50%;
+}
+.display{
+    position: relative;
+    width: 250px;
+    height: 40px;
+    border-radius: 14px;
+    border-color: slateblue;
+    
+}
+input[type="button"]{
+    border-radius: 25px;
+    background-color: #486e9a;
+    font-size: larger;
+    width: 110px;
+    height: 70px;
+    text-align: center;
+}
+.clr{
+    background-color: #ff5353;
+    border-radius: 20px;
+    font-size: small;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+}
+input:active[type="button"]{
+    background-color: red;
+}
+.clr:active{
+    background-color: red;
+}
